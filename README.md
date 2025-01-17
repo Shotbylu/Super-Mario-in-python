@@ -1,23 +1,32 @@
-**SuperMario**
-* support four levels：level 1-1 to level 1-4 
-* support go into the pipe
-* use json file to store level data (e.g. position of enemy, brick, box and pipe)
-* add new enemies in level 1-3 and 1-4 
-* add slider in level 1-2
+# SuperMario
 
-**Requirement**
-* Python 3.7
-* Python-Pygame 1.9
+## Features
+- Supports four levels: **Level 1-1 to Level 1-4**
+- Players can **enter pipes**
+- Level data is stored in a **JSON file** (includes enemy positions, bricks, boxes, and pipes)
+- New enemies added in **Level 1-3** and **Level 1-4**
+- A **slider** introduced in **Level 1-2**
 
-**How To Start Game**
+## Requirements
+- **Python 3.7**
+- **Python-Pygame 1.9**
+
+## How To Start the Game
+Run the following command in your terminal:
+```sh
 $ python main.py
+```
 
-**How to Play**
-* use LEFT/RIGHT/DOWN key to control player
-* use key 'a' to jump
-* use key 's' to shoot firewall or run
+## How to Play
+- Use **LEFT/RIGHT/DOWN** arrow keys to move the player.
+- Press **'A'** to jump.
+- Press **'S'** to shoot fireballs or run.
 
-**Demo**
+Enjoy playing **SuperMario**!
+
+
+
+## Demo
 ![level_1_1](https://raw.githubusercontent.com/marblexu/PythonSuperMario/master/resources/demo/level_1_1.png)
 ![level_1_2](https://raw.githubusercontent.com/marblexu/PythonSuperMario/master/resources/demo/level_1_2.png)
 ![level_1_3](https://raw.githubusercontent.com/marblexu/PythonSuperMario/master/resources/demo/level_1_3.png)
